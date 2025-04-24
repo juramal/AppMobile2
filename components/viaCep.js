@@ -17,7 +17,7 @@ export default function ViaCep() {
   const [cadastro, setCadastro] = useState(null); // Estado para armazenar os dados cadastrados
 
   const buscaCep = (arg) => {
-    setIsLoading(true); // Inicia o loading
+    setIsLoading(true); //Inicia o loading
 
     let url = `https://viacep.com.br/ws/${arg}/json/`;
 
